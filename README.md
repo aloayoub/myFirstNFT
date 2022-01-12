@@ -20,10 +20,14 @@ Steps followed:
 -Write NFT Smart Contract Code.
 
 -Compile the contract : npx hardhat compile
+
 -Deploy the contract : npx hardhat --network ropsten run scripts/deploy.js
-  you'll get the deployment adress, and check in the Ropsten etherscan that it has been deployed successfully. 
+  you'll get the deployment adress, and check in the Ropsten etherscan that it has been deployed successfully.
+  
 -store the NFT asset and metadata in Pinata, a convenient IPFS API and toolkit, to store our NFT asset and metadata.
+
 -Mint token : node scripts/mint-nft.js
+
 -add the collectable to METAMASK
 
 Using the mint-nft.js you can mint as many NFT's as your heart desires! Just be sure to pass in a new tokenURI describing the NFT's 
