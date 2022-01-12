@@ -10,8 +10,11 @@ to run the project:
 - secondly Alchemy account, a blockchain developer platform and API that allows us to make requests to the Ethereum blockchain, and create your app. 
 
 don't forget to set those environement variables to connect METAMASK & ALCHEMY to your project:
+
 API_URL: HTTP Alchemy API URL
+
 PRIVATE_KEY: your private key from MetaMask
+
 PUBLIC_KEY: your public account address
 
 Steps followed:
@@ -21,8 +24,7 @@ Steps followed:
 
 -Compile the contract : npx hardhat compile
 
--Deploy the contract : npx hardhat --network ropsten run scripts/deploy.js
-  you'll get the deployment adress, and check in the Ropsten etherscan that it has been deployed successfully.
+-Deploy the contract : npx hardhat --network ropsten run scripts/deploy.js (you'll get the deployment adress, and check in the Ropsten etherscan that it has been deployed successfully)
   
 -store the NFT asset and metadata in Pinata, a convenient IPFS API and toolkit, to store our NFT asset and metadata.
 
