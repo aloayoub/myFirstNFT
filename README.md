@@ -19,6 +19,7 @@ don't forget to set those environement variables to connect METAMASK & ALCHEMY t
 - PUBLIC_KEY: your public account address
 
 Steps followed:
+
 -Start Hardhat Project : Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software.
 
 - Write NFT Smart Contract Code.
